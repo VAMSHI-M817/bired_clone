@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    padding: 0.2rem;
+    background-color: #049A1E;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: center;
+    /* Centers the flex items horizontally */
+    align-items: center;
+    /* Centers the flex items vertically */
+}
+
+ul {
+    display: flex;
+    /* Make the <ul> a flex container */
+    justify-content: center;
+    /* Center the list items horizontally */
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0 2rem 0 0;
+    /* Space between items */
+}
+
+li a {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.1rem;
+    border-color: #fff;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li a:hover {
+    padding: 0.2rem;
+    background-color: #F8E962;
+    color: black;
+}
+
+
+a button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+
+.container .head {
+    text-align: center;
+    color: #005CA9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+
+body {
+    background: linear-gradient(to top, #A6CEAC, white);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+main {
+    border: #005CA9;
+    position: relative;
+    left: 25rem;
+    width: 60rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+.marqueesec {
+    margin-top: 0.5rem 0rem 0.2rem 0rem;
+}
+
+.marquee {
+    display: flex;
+    background-color: #d6d3d3;
+    padding: 0.2rem;
+}
+
+.marquee p {
+    padding: 0.2rem;
+    background-color: #CF0A1B;
+    color: #fff;
+}
+
+.container1 {
+    display: flex;
+
+}
+
+.item1 {
+    padding: 0.2rem;
+    background: linear-gradient(to top, #A6CEAC, white);
+    width: 100%;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+
+.item1 h3 {
+    background: #D7C72D;
+    align-items: center;
+}
