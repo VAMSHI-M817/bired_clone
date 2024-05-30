@@ -65,6 +65,7 @@ a button {
 
 
 .head_container .head {
+    text-wrap: wrap;
     text-align: center;
     color: #005CA9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -241,8 +242,9 @@ h3 {
 .item-3 {
     padding: 0.5rem;
     border-radius: 1rem;
-    border: 1px solid rgb(205, 199, 199);
+    background: linear-gradient(to top, #A6CEAC, white);
     background-color: #f1f8f4;
+    border: 1px solid rgb(205, 199, 199);
     max-width: 250px;
     width: 100%;
 }
@@ -258,7 +260,7 @@ h3 {
 
 .item-2 .inner_item {
     text-align: start;
-    font:bolder;
+    font: bolder;
 }
 
 .item-3 {
@@ -268,35 +270,28 @@ h3 {
 }
 
 .item-4 {
-    flex-grow: 1;
+    min-height: auto;
+    min-width: max-content;
+
 }
 
 
 @media screen and (max-width:576px) {
-    .head_container img {
-        display: none;
-    }
-
-
-    .aside_body {
-        border: 1px solid rgb(205, 199, 199);
-        background-color: white;
-        min-width: auto;
-        max-width: 1000px;
-        width: 100%;
-    }
-
 
     .head_container .head {
         text-wrap: wrap;
         text-align: center;
         color: #005CA9;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: large;
+        font-size: medium;
+    }
+
+    .item-4 img {
+        display: none;
     }
 }
 
-@media screen and (max-width:776px) {
+/* @media screen and (min-width:776px) {
     .aside_parent {
         width: 100%;
         display: flex;
@@ -305,6 +300,21 @@ h3 {
         align-items: center;
         background-color: white;
         gap: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1199.98px) {
+
+    .aside_parent {
+        width: 100%;
+        display: grid;
+        flex-flow: row nowrap;
+
+        background-color: white;
+        gap: 1rem;
         padding: 0.5rem;
     }
-}
+
+} */
