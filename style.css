@@ -301,9 +301,10 @@ h3 {
         font-size: medium;
     }
 
-    .item-4 img {
+    .logo{
         display: none;
     }
+
 }
 
 /* @media screen and (min-width:776px) {
