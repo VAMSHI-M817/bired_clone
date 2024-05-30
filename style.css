@@ -152,7 +152,6 @@ body {
 .main_parent-2 {
     display: flex;
     flex-flow: row wrap;
-    flex: 1;
     justify-content: center;
     background-color: white;
     gap: 1rem;
