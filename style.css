@@ -88,18 +88,10 @@ body {
 /* MARQUEE SECTION */
 .marquee {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row nowrap ;
     width: 100%;
     background-color: #d6d3d3;
     padding: 0.2rem;
-    margin-top: 0.5rem 0rem 0.2rem 0rem;
-}
-
-.marquee p {
-    padding: 0.2rem;
-    background-color: #CF0A1B;
-    color: #fff;
 }
 
 /* Main section */
