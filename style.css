@@ -66,6 +66,7 @@ li a:hover {
     padding: 5px 10px;
     background-color: #F8E962;
     color: black;
+    transition: all 0.3s ease;
 }
 
 
