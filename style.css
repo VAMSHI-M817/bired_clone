@@ -47,14 +47,14 @@ ul {
 ul li {
     list-style-type: none;
     margin: 0 2rem 0 0;
-    padding: 0.5rem;
+    padding: 5px;
     border-right: white dotted;
     border-width: 1px;
 
 }
 
 li a {
-    padding: 0.1rem;
+    padding: 5px 20px;
     border-color: #fff;
     text-decoration: none;
     color: white;
@@ -63,6 +63,8 @@ li a {
 }
 
 li a:hover {
+    
+    padding: 5px 20px;
     background-color: #F8E962;
     color: black;
 }
@@ -338,6 +340,7 @@ a{
         min-height: auto;
         overflow: scroll;
     }
+    
 
 }
 
