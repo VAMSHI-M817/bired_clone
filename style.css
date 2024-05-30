@@ -157,6 +157,7 @@ body {
     gap: 1rem;
     padding: 0.5rem;
     border: 1px solid rgb(205, 199, 199);
+    border-radius: 1rem;
 }
 
 
