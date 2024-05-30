@@ -104,7 +104,6 @@ body {
     justify-content: center;
     align-items: stretch;
     flex-flow: row wrap;
-
 }
 
 /* Parent sections */
@@ -114,6 +113,7 @@ body {
     padding: 0.5rem;
     gap: 1rem;
     background-color: white;
+    
 }
 
 
@@ -125,7 +125,6 @@ body {
     text-align: start;
     text-wrap: wrap;
     background-color: white;
-    border: 1px solid rgb(205, 199, 199);
 }
 
 
@@ -156,7 +155,6 @@ body {
     background-color: white;
     gap: 1rem;
     padding: 0.5rem;
-    border: 1px solid rgb(205, 199, 199);
     border-radius: 1rem;
 }
 
@@ -190,7 +188,6 @@ body {
     background-color: white;
     gap: 1rem;
     padding: 0.5rem;
-    border: 1px solid rgb(205, 199, 199);
 }
 
 .parent3-child {
@@ -224,7 +221,6 @@ h3 {
 /* Aside section */
 
 .aside_body {
-    border: 1px solid rgb(205, 199, 199);
     background-color: white;
     max-width: 300px;
     top: 0;
@@ -248,7 +244,7 @@ h3 {
 .item-3 {
     padding: 0.5rem;
     border-radius: 1rem;
-    background: linear-gradient(to top, #A6CEAC, white);
+    background: linear-gradient(to top, #b8cebb, white);
     background-color: #f1f8f4;
     border: 1px solid rgb(205, 199, 199);
     max-width: 250px;
@@ -305,6 +301,14 @@ h3 {
         display: none;
     }
 
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
 }
 
 /* @media screen and (min-width:776px) {
