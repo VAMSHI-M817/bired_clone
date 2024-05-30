@@ -19,8 +19,8 @@
 
 
 .navbar {
-    padding: 0.2rem;
-    background-color: #049A1E;
+    padding: 0.5rem;
+    background-color: #039418;
 }
 
 .navdiv {
@@ -50,7 +50,6 @@ li a {
 }
 
 li a:hover {
-    padding: auto;
     background-color: #F8E962;
     color: black;
 }
@@ -113,7 +112,7 @@ body {
     padding: 0.5rem;
     gap: 1rem;
     background-color: white;
-    
+
 }
 
 
@@ -128,6 +127,15 @@ body {
 }
 
 
+.parent1-child {
+    margin-top: 5px;
+    padding: 0.2rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #e9e8e8;
+    border: 1px solid rgb(240, 234, 234);
+    background: linear-gradient(to top, #e2ffe9, white);
+}
+
 .main_parent-1 img {
     width: 100%;
     padding: 0.2rem;
@@ -135,14 +143,14 @@ body {
     max-width: auto;
 }
 
-.parent1-child {
-    padding: 0.2rem;
-}
 
 .parent1-child article {
     box-sizing: border-box;
     max-width: 800px;
     width: 100%;
+    font-size: small;
+    padding: 5px;
+    
 }
 
 
@@ -156,6 +164,7 @@ body {
     gap: 1rem;
     padding: 0.5rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 
@@ -171,6 +180,7 @@ body {
 
 .parent2-child p {
     font-size: 0.7rem;
+    
 }
 
 .parent2-child img {
@@ -188,6 +198,8 @@ body {
     background-color: white;
     gap: 1rem;
     padding: 0.5rem;
+    cursor: pointer;
+
 }
 
 .parent3-child {
@@ -198,6 +210,7 @@ body {
     border-radius: 1rem;
     border: 1px solid rgb(205, 199, 199);
     background-color: #f1f8f4;
+    
 }
 
 .parent3-child p {
@@ -207,7 +220,7 @@ body {
 
 /* Universal*/
 h3 {
-    font-size:medium;
+    font-size: medium;
     text-wrap: wrap;
     text-align: center;
     padding: 0.3rem;
@@ -249,6 +262,8 @@ h3 {
     border: 1px solid rgb(205, 199, 199);
     max-width: 250px;
     width: 100%;
+    cursor: pointer;
+
 }
 
 
@@ -260,8 +275,7 @@ h3 {
     flex-grow: 2;
 }
 
-.item-2 .inner_item {
-    text-align: start;
+.item-2 h3 {
     font: bolder;
 }
 
@@ -273,10 +287,8 @@ h3 {
 
 .item-4 {
     min-height: auto;
-    min-width: max-content;
-
+    min-width: fit-content;
 }
-
 
 @media screen and (max-width:476px) {
     .parent2-child {
@@ -297,13 +309,13 @@ h3 {
         font-size: medium;
     }
 
-    .logo{
+    .logo {
         display: none;
     }
 
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
