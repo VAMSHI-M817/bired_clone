@@ -19,7 +19,6 @@
 
 
 .navbar {
-    padding: 0.5rem;
     background-color: #039418;
 }
 
@@ -38,15 +37,16 @@ ul {
 ul li {
     list-style-type: none;
     margin: 0 2rem 0 0;
+    padding: 0.5rem;
+
 }
 
 li a {
-    font-family: 'Times New Roman', Times, serif;
     padding: 0.1rem;
     border-color: #fff;
     text-decoration: none;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 li a:hover {
@@ -311,6 +311,14 @@ h3 {
 
     .logo {
         display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        max-height: auto;
+
     }
 
 }
