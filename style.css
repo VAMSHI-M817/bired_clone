@@ -52,6 +52,11 @@ ul li {
     border-width: 1px;
 
 }
+ul li:nth-child(1) {
+    border-left: white dotted;
+    border-width: 1px;
+
+}
 
 li a {
     padding: 5px 10px;
