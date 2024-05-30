@@ -330,9 +330,7 @@ a{
         font-size: medium;
     }
 
-    .logo {
-        display: none;
-    }
+  
 
     ul {
         display: flex;
